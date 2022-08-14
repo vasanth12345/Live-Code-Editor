@@ -66,9 +66,9 @@ export default function App() {
       <style>{dynamo}</style>
       <div
         className={
-          holeThemes === true && Dynamicolor == ""
+          holeThemes === true && Dynamicolor === ""
             ? "dark"
-            : holeThemes === false && Dynamicolor == ""
+            : holeThemes === false && Dynamicolor === ""
             ? "light"
             : "dynamo"
         }
